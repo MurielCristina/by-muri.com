@@ -29,7 +29,7 @@
 section.heroHeader {
   height: 100%;
   width: 100%;
-  padding: 200px 100px;
+  padding: 125px 0 50px 100px;
   display: block;
 }
 .heroHeader img {
@@ -52,7 +52,7 @@ section.heroHeader {
   margin: 50px 5px;
 }
 /*HERO HEADER end:*/
-
+/*BUTTONS starts*/
 .button-one {
   background-color: #ff4da6; /* Primary Pink */
   color: #ffffff; /* White text */
@@ -101,3 +101,21 @@ section.heroHeader {
 .theme-button:hover {
   color: #ff4da6; /* Changes to Primary Pink on hover */
 }
+/*BUTTONS end*/
+/*smallFooter start*/
+
+.light-theme p {
+  opacity: 0.6;
+}
+.dark-theme p {
+  opacity: 0.6;
+}
+.dark-theme a {
+  color: var(--subtle-teal);
+  text-decoration: none;
+}
+.light-theme a {
+  color: #dd1881;
+  text-decoration: none;
+}
+/*smallFooter end*/
