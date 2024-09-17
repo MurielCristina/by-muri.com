@@ -1,5 +1,4 @@
 // NAVBAR
-
 let themeButton = document.getElementById("theme-toggle");
 let body = document.body;
 let topBar = document.getElementById("top-bar");
@@ -14,4 +13,18 @@ themeButton.addEventListener("click", () => {
   } else {
     themeButton.textContent = "Switch to Dark";
   }
+});
+
+// alert in the CONTACT
+let mailButton = document.getElementById("mail");
+let phoneButton = document.getElementById("phone");
+
+mailButton.addEventListener("click", () => {
+  alert(
+    "I know how annoying it is when the mail app opens. Here’s my email for you to copy and paste: mcsanchezlaguna@gmail.com"
+  );
+});
+
+phoneButton.addEventListener("click", () => {
+  alert("Please call between 13-19 (GMT+2) - (🇪🇸)648440317");
 });

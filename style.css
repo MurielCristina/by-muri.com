@@ -153,3 +153,29 @@ section.heroHeader {
   text-decoration: none;
 }
 /*smallFooter end*/
+
+/*Contact-page start*/
+.contact-page {
+  margin: 50px 100px;
+}
+.contact-page h2 {
+  font-size: 45px;
+}
+.contact-page h4 {
+  margin-top: 30px;
+}
+.contact-page i {
+  font-size: 30px;
+  margin: 10px;
+}
+.contact-page .icon-logo-link {
+  color: #39e085; /* Default color (Accent Green) */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth hover effects */
+  cursor: pointer; /* Pointer to indicate it's clickable */
+}
+.contact-page .icon-logo-link:hover {
+  color: #ff4da6; /* Change to Primary Pink on hover */
+  transform: scale(1.1); /* Slight zoom-in effect */
+}
+/*Contact-page end*/
