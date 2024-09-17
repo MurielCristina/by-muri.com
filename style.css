@@ -23,6 +23,12 @@
 .top-bar {
   margin-top: 10px;
   padding: 10px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.top-bar span {
+  font-weight: 400;
+  font-size: 20px;
 }
 .top-bar span:hover {
   color: var(--accent-green);
@@ -30,6 +36,7 @@
 }
 .top-bar strong {
   color: var(--primary-pink);
+  font-size: 22px;
 }
 /*NAVBAR end*/
 
