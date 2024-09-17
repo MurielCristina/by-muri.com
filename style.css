@@ -21,7 +21,15 @@
 
 /*NAVBAR start*/
 .top-bar {
+  margin-top: 10px;
   padding: 10px;
+}
+.top-bar span:hover {
+  color: var(--accent-green);
+  cursor: pointer;
+}
+.top-bar strong {
+  color: var(--primary-pink);
 }
 /*NAVBAR end*/
 
@@ -39,6 +47,19 @@ section.heroHeader {
 }
 .heroHeader h3 {
   font-size: 35px;
+}
+.heroHeader h3 span.rotate {
+  display: inline-block;
+  animation: rotate 0.75s infinite;
+  margin-right: 10px;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(90deg);
+  }
 }
 .heroHeader h1 {
   font-size: 70px;
