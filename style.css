@@ -9,15 +9,24 @@
   --text-black: #000000; /*text color, stars, and small decorative elements */
   --background-light: #ffffff; /*Main background color for the entire website*/
 }
-.dark {
+
+.dark-theme {
   color: var(--text-white);
   background: var(--background-dark);
 }
-.light {
+.light-theme {
   color: var(--text-black);
   background: var(--background-light);
 }
-div.heroHeader {
+
+/*NAVBAR start*/
+.top-bar {
+  padding: 10px;
+}
+/*NAVBAR end*/
+
+/*HERO HEADER start*/
+section.heroHeader {
   height: 100%;
   width: 100%;
   padding: 200px 100px;
@@ -42,6 +51,8 @@ div.heroHeader {
 .heroHeader button {
   margin: 50px 5px;
 }
+/*HERO HEADER end:*/
+
 .button-one {
   background-color: #ff4da6; /* Primary Pink */
   color: #ffffff; /* White text */
@@ -72,4 +83,21 @@ div.heroHeader {
 .button-two:hover {
   background-color: #39e085; /* Background turns Accent Green on hover */
   color: #ffffff; /* Text turns white on hover */
+}
+.theme-button {
+  display: block;
+  margin: 0 auto;
+  background-color: transparent; /* No background */
+  color: #39e085; /* Accent Green as default text color */
+  border: none; /* No border */
+  padding: 10px 0; /* Small padding for clickable area */
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none; /* Removes underline */
+  cursor: pointer;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  border-bottom: 2px solid transparent; /* Underline effect on hover */
+}
+.theme-button:hover {
+  color: #ff4da6; /* Changes to Primary Pink on hover */
 }
