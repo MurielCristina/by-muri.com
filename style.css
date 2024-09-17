@@ -1,4 +1,75 @@
-body {
-  color: white;
-  background: #242038;
+:root {
+  --primary-pink: #ff4da6; /*Buttons, links, hover effects, and key highlights*/
+  --accent-green: #39e085; /* Secondary buttons, icons, or accent borders for contrast with pink elements */
+  --subtle-teal: #8cf1e3; /*Subtle decorative details, lines, dividers, or smaller text elements and links*/
+  /*Dark Theme Palette:*/
+  --text-white: #ffffff; /*text color, stars, and small decorative elements */
+  --background-dark: #0a0a1e; /*Main background color for the entire website*/
+  /*Light Theme Palette:*/
+  --text-black: #000000; /*text color, stars, and small decorative elements */
+  --background-light: #ffffff; /*Main background color for the entire website*/
+}
+.dark {
+  color: var(--text-white);
+  background: var(--background-dark);
+}
+.light {
+  color: var(--text-black);
+  background: var(--background-light);
+}
+div.heroHeader {
+  height: 100%;
+  width: 100%;
+  padding: 200px 100px;
+  display: block;
+}
+.heroHeader img {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+.heroHeader h3 {
+  font-size: 35px;
+}
+.heroHeader h1 {
+  font-size: 70px;
+  margin: 30px 0;
+}
+.heroHeader h2 {
+  font-size: 35px;
+  font-weight: 400;
+}
+.heroHeader button {
+  margin: 50px 5px;
+}
+.button-one {
+  background-color: #ff4da6; /* Primary Pink */
+  color: #ffffff; /* White text */
+  border: 2px solid #ff4da6; /* Border matches background */
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.button-one:hover {
+  background-color: #ffffff; /* On hover, the background turns white */
+  color: #ff4da6; /* Text color changes to Primary Pink */
+  border: 2px solid #ff4da6; /* Border remains Primary Pink */
+}
+.button-two {
+  background-color: transparent; /* Transparent background */
+  color: #39e085; /* Accent Green text */
+  border: 2px solid #39e085; /* Accent Green border */
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.button-two:hover {
+  background-color: #39e085; /* Background turns Accent Green on hover */
+  color: #ffffff; /* Text turns white on hover */
 }
