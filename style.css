@@ -163,6 +163,52 @@ section.heroHeader {
 
 /*ABOUT-page start*/
 .about-page {
+  margin: 60px 100px;
+}
+.about-page h2 {
+  font-size: 80px;
+  margin-bottom: 15px;
+}
+.about-page h3 {
+  font-size: 45px;
+  margin-bottom: 25px;
+}
+.about-page h4 {
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+.about-page p {
+  font-size: 20px;
+}
+.about-page p.quote {
+  font-size: 30px;
+  font-style: italic;
+  margin: 30px;
+  text-align: center;
+}
+.about-page img {
+  display: block;
+  margin: 60px 0 0 0;
+}
+.about-page .button-one {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 0;
+}
+.about-page .cv-button {
+  margin: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+.about-page h5 {
+  font-weight: 600;
+  text-decoration: underline;
+  margin-top: 60px;
+}
+.about-page p.tools-skills {
+  font-size: 16px;
+  padding: 0 30px;
 }
 /*ABOUT-page end*/
 
