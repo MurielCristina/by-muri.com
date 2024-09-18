@@ -84,9 +84,10 @@ section.heroHeader {
 .heroHeader h2 {
   font-size: 35px;
   font-weight: 400;
+  margin-bottom: 40px;
 }
-.heroHeader button {
-  margin: 50px 5px;
+.heroHeader a {
+  margin: 0 5px;
 }
 /*HERO HEADER end:*/
 /*BUTTONS starts*/
@@ -100,6 +101,7 @@ section.heroHeader {
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
+  text-decoration: none;
 }
 .button-one:hover {
   background-color: #ffffff; /* On hover, the background turns white */
@@ -116,6 +118,7 @@ section.heroHeader {
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
+  text-decoration: none;
 }
 .button-two:hover {
   background-color: #39e085; /* Background turns Accent Green on hover */
@@ -140,7 +143,9 @@ section.heroHeader {
 }
 /*BUTTONS end*/
 /*smallFooter start*/
-
+.small-footer {
+  margin-top: 60px;
+}
 .small-footer p {
   opacity: 0.6;
 }
