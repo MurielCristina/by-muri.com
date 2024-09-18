@@ -31,3 +31,5 @@ mailButton.addEventListener("click", () => {
 phoneButton.addEventListener("click", () => {
   alert("Please call between 13-19 (GMT+2) - (🇪🇸)648440317");
 });
+
+// typing effect in About page
