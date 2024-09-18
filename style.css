@@ -90,6 +90,7 @@ section.heroHeader {
   margin: 0 5px;
 }
 /*HERO HEADER end:*/
+
 /*BUTTONS starts*/
 .button-one {
   background-color: #ff4da6; /* Primary Pink */
@@ -142,6 +143,7 @@ section.heroHeader {
   color: #ff4da6; /* Changes to Primary Pink on hover */
 }
 /*BUTTONS end*/
+
 /*smallFooter start*/
 .small-footer {
   margin-top: 60px;
@@ -158,6 +160,11 @@ section.heroHeader {
   text-decoration: none;
 }
 /*smallFooter end*/
+
+/*ABOUT-page start*/
+.about-page {
+}
+/*ABOUT-page end*/
 
 /*Contact-page start*/
 .contact-page {
