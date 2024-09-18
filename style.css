@@ -237,6 +237,9 @@ section.heroHeader {
   display: flex;
   justify-content: center;
 }
+.about-page .cv-button a {
+  margin: 0 10px;
+}
 .about-page h5 {
   font-weight: 600;
   text-decoration: underline;
