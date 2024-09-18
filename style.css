@@ -161,6 +161,15 @@ section.heroHeader {
 }
 /*smallFooter end*/
 
+/*Big-footer start*/
+.bigFooter {
+  padding: 50px;
+}
+.bigFooter h6 {
+  font-size: 36px;
+}
+/*Big-footer end*/
+
 /*ABOUT-page start*/
 .about-page {
   margin: 60px 100px;
