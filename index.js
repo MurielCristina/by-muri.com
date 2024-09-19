@@ -6,11 +6,12 @@ let bigFooter = document.getElementById("big-footer");
 
 themeButton.addEventListener("click", () => {
   body.classList.toggle("light-theme");
-  body.classList.toggle("dark-theme"); //  start with dark theme
+  body.classList.toggle("dark-theme");
   topBar.classList.toggle("dark-theme");
-  topBar.classList.toggle("light-theme"); //  start with ligth theme the navbar
+  topBar.classList.toggle("light-theme");
   bigFooter.classList.toggle("dark-theme");
-  bigFooter.classList.toggle("light-theme"); //  start with ligth theme the navbar
+  bigFooter.classList.toggle("light-theme");
+
   if (body.classList.contains("dark-theme")) {
     themeButton.textContent = "Switch to Light";
   } else {
