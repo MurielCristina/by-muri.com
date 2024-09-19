@@ -142,6 +142,28 @@ section.heroHeader {
 .theme-button:hover {
   color: #ff4da6; /* Changes to Primary Pink on hover */
 }
+.button-three {
+  display: block;
+  margin: 10px 0;
+  text-align: center;
+  background-color: #8cf1e3; /* Main color */
+  color: #0a0a1e; /* Dark Navy for text */
+  border: 2px solid #8cf1e3; /* Border matches the background color */
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+.button-three:hover {
+  background-color: #efeff1; /* White on hover */
+  color: #56a59a; /* Text changes to the main color */
+  border: 2px solid #8cf1e3; /* Keeps border color */
+  box-shadow: 0px 0px 15px 2px #8cf1e3; /* Glow effect */
+}
 /*BUTTONS end*/
 
 /*smallFooter start*/
