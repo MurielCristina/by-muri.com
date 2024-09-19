@@ -197,6 +197,96 @@ section.heroHeader {
 }
 /*Big-footer end*/
 
+/*PROJECTS-page start*/
+.project-page {
+  margin: 60px 100px;
+}
+.project-page h2 {
+  font-size: 40px;
+}
+.project-page img {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 300px;
+}
+.project-page .project-page-intro {
+  margin-bottom: 50px;
+}
+.project-page .project-boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+.project-page .project-box {
+  background-color: var(--background-light);
+  color: #000000;
+  border-radius: 5px;
+  height: 200px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: transform 0.3s ease;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.project-page .project-box:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: scale(1.03);
+}
+.project-page .project-box .project-box-content h3 {
+  font-size: 22px;
+  margin: 5px;
+  text-align: center;
+}
+.project-page .project-box .project-box-content p.tools {
+  margin: 0 8px 15px 8px;
+  padding: 0;
+  line-height: 8.5px;
+}
+.project-page .project-box .project-box-content p.tools span {
+  font-size: 10px;
+  background-color: var(--subtle-teal);
+  color: var(--text-black);
+  border-radius: 5px;
+  text-align: center;
+}
+.project-page .project-box .project-box-content p {
+  margin: 8px;
+  padding: 0;
+  font-size: 12px;
+  line-height: 12px;
+  opacity: 0.8;
+}
+.project-page .project-box .project-box-content .project-page-icon {
+  color: var(--text-black);
+  margin: 0 5px 0 8px;
+  opacity: 0.8;
+  font-size: 15px;
+  text-align: end;
+}
+.project-page .project-box .project-box-content .project-page-icon:hover {
+  color: var(--accent-green); /* Change to Primary Pink on hover */
+  transform: scale(1.1); /* Slight zoom-in effect */
+}
+.project-page .project-box .project-box-content .project-snap {
+  width: 100%;
+  height: 200px;
+  max-height: 200px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-page .project-box .project-box-content .project-snap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+/*PROJECTS-page end*/
+
 /*ABOUT-page start*/
 .about-page {
   margin: 60px 100px;
