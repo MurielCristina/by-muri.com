@@ -289,8 +289,6 @@ section.heroHeader {
   transform: scale(1.1); /* Slight zoom-in effect */
 }
 .project-page .project-box .project-box-content .project-snap {
-  width: 271.5px;
-  height: 200px;
   overflow: hidden;
   display: flex;
   justify-content: center;
