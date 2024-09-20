@@ -210,6 +210,18 @@ section.heroHeader {
   color: #dd1881;
   text-decoration: none;
 }
+.small-footer img {
+  width: 20px;
+}
+@media (max-width: 768px) {
+  .small-footer {
+    margin: 60px 0;
+    font-size: 8px;
+  }
+  .small-footer img {
+    width: 10px;
+  }
+}
 /*smallFooter end*/
 
 /*Big-footer start*/
