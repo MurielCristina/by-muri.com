@@ -183,13 +183,6 @@ section.heroHeader {
   transition: color 0.3s ease, border-bottom 0.3s ease;
   border-bottom: 2px solid transparent; /* Underline effect on hover */
 }
-@media (max-width: 768px) {
-  .theme-button {
-    margin: 0;
-    padding: 5px;
-    font-size: 8px;
-  }
-}
 .theme-button:hover {
   color: #ff4da6; /* Changes to Primary Pink on hover */
 }
@@ -214,6 +207,21 @@ section.heroHeader {
   color: #56a59a; /* Text changes to the main color */
   border: 2px solid #8cf1e3; /* Keeps border color */
   box-shadow: 0px 0px 15px 2px #8cf1e3; /* Glow effect */
+}
+@media (max-width: 768px) {
+  .theme-button {
+    margin: 0;
+    padding: 5px;
+    font-size: 8px;
+  }
+  .button-one {
+    padding: 6px 12.5px;
+    font-size: 10px;
+  }
+  .button-two {
+    padding: 6px 12.5px;
+    font-size: 10px;
+  }
 }
 /*BUTTONS end*/
 
