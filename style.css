@@ -292,6 +292,24 @@ section.heroHeader {
   width: 250px;
   padding: 0;
 }
+@media (max-width: 768px) {
+  .bigFooter {
+    padding: 5px 0 20px 60px;
+  }
+  .bigFooter h6 {
+    font-size: 25px;
+  }
+  .bigFooter p {
+    font-size: 10px;
+  }
+  .bigFooter .icon-logo-link-footer {
+    font-size: 16px;
+  }
+
+  .bigFooter img {
+    width: 250px;
+  }
+}
 /*Big-footer end*/
 
 /*PROJECTS-page start*/
