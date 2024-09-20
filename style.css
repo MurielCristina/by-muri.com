@@ -49,6 +49,28 @@
 .dark-theme .top-bar a {
   color: var(--text-black);
 }
+.top-bar .navBar-logo img {
+  width: 60px;
+}
+@media (max-width: 768px) {
+  .top-bar {
+    padding: 5px;
+    font-size: 10px;
+  }
+  .top-bar .navBar-logo img {
+    width: 20px;
+  }
+  .top-bar strong {
+    font-size: 10px;
+  }
+  .top-bar a {
+    font-size: 8px;
+    margin: 0 2px;
+  }
+  .top-bar small {
+    display: none;
+  }
+}
 /*NAVBAR end*/
 
 /*HERO HEADER start*/
@@ -138,6 +160,13 @@ section.heroHeader {
   cursor: pointer;
   transition: color 0.3s ease, border-bottom 0.3s ease;
   border-bottom: 2px solid transparent; /* Underline effect on hover */
+}
+@media (max-width: 768px) {
+  .theme-button {
+    margin: 0;
+    padding: 5px;
+    font-size: 8px;
+  }
 }
 .theme-button:hover {
   color: #ff4da6; /* Changes to Primary Pink on hover */
