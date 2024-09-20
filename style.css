@@ -111,6 +111,28 @@ section.heroHeader {
 .heroHeader a {
   margin: 0 5px;
 }
+@media (max-width: 768px) {
+  section.heroHeader {
+    padding: 50px 20px;
+  }
+  .heroHeader h3 {
+    font-size: 16px;
+  }
+  .heroHeader h1 {
+    font-size: 25px;
+  }
+  .heroHeader h1 small {
+    font-size: 19px;
+  }
+  .heroHeader h2 {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 40px;
+  }
+  .heroHeader a {
+    margin: 0 5px;
+  }
+}
 /*HERO HEADER end:*/
 
 /*BUTTONS starts*/
