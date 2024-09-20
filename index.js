@@ -1,4 +1,4 @@
-// NAVBAR
+// Theme toggle
 let themeButton = document.getElementById("theme-toggle");
 let body = document.body;
 let topBar = document.getElementById("top-bar");
