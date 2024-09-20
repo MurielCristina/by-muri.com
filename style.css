@@ -468,8 +468,6 @@ section.heroHeader {
 }
 .about-page .cv-button {
   margin: 40px 0;
-  display: flex;
-  justify-content: center;
 }
 .about-page .cv-button a {
   margin: 0 10px;
@@ -482,6 +480,55 @@ section.heroHeader {
 .about-page p.tools-skills {
   font-size: 16px;
   padding: 0 30px;
+}
+@media (max-width: 768px) {
+  .about-page {
+    margin: 30px 20px;
+  }
+  .about-page h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .about-page h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .about-page h4 {
+    font-size: 13px;
+    margin-bottom: 30px;
+  }
+  .about-page p {
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 10px;
+  }
+  .about-page p.quote {
+    font-size: 13px;
+    margin: 30px 10px;
+  }
+  .about-page img {
+    margin: 30px 0 0 0;
+  }
+  .about-page .button-one {
+    font-size: 8px;
+  }
+  .about-page .cv-button {
+    margin: 20px 0;
+  }
+  .about-page .cv-button a {
+    margin: 3px 10px;
+    font-size: 8px;
+    padding: 0;
+  }
+  .about-page h5 {
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 30px;
+  }
+  .about-page p.tools-skills {
+    font-size: 6px;
+    padding: 0 5px;
+  }
 }
 /*ABOUT-page end*/
 
