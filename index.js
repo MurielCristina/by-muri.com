@@ -4,6 +4,39 @@ let body = document.body;
 let topBar = document.getElementById("top-bar");
 let bigFooter = document.getElementById("big-footer");
 
+window.addEventListener("DOMContentLoaded", () => {
+  const savedTheme = localStorage.getItem("theme");
+
+  if (savedTheme === "light") {
+    body.classList.remove("dark-theme");
+    body.classList.add("light-theme");
+
+    topBar.classList.remove("light-theme");
+    topBar.classList.add("dark-theme");
+
+    if (bigFooter) {
+      bigFooter.classList.remove("light-theme");
+      bigFooter.classList.add("dark-theme");
+    }
+
+    themeButton.textContent = "🌑";
+  } else {
+    // Por defecto, aplicar el tema oscuro
+    body.classList.remove("light-theme");
+    body.classList.add("dark-theme");
+
+    topBar.classList.remove("dark-theme");
+    topBar.classList.add("light-theme");
+
+    if (bigFooter) {
+      bigFooter.classList.remove("dark-theme");
+      bigFooter.classList.add("light-theme");
+    }
+
+    themeButton.textContent = "☀️";
+  }
+});
+
 themeButton.addEventListener("click", () => {
   if (body.classList.contains("dark-theme")) {
     body.classList.remove("dark-theme");
@@ -18,6 +51,9 @@ themeButton.addEventListener("click", () => {
     }
 
     themeButton.textContent = "🌑";
+
+    // Guardar preferencia en localStorage
+    localStorage.setItem("theme", "light");
   } else {
     body.classList.remove("light-theme");
     body.classList.add("dark-theme");
@@ -31,6 +67,9 @@ themeButton.addEventListener("click", () => {
     }
 
     themeButton.textContent = "☀️";
+
+    // Guardar preferencia en localStorage
+    localStorage.setItem("theme", "dark");
   }
 });
 
