@@ -556,4 +556,24 @@ section.heroHeader {
   color: #ff4da6; /* Change to Primary Pink on hover */
   transform: scale(1.1); /* Slight zoom-in effect */
 }
+@media (max-width: 768px) {
+  .contact-page {
+    margin: 30px 20px;
+  }
+  .contact-page h2 {
+    font-size: 25px;
+  }
+  .contact-page p {
+    font-size: 8px;
+    margin-bottom: 0;
+  }
+  .contact-page i {
+    font-size: 12px;
+    margin: 5px;
+  }
+  .contact-page h4 {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+}
 /*Contact-page end*/
