@@ -222,6 +222,10 @@ section.heroHeader {
     padding: 6px 12.5px;
     font-size: 10px;
   }
+  .button-three {
+    padding: 6px 12.5px;
+    font-size: 15px;
+  }
 }
 /*BUTTONS end*/
 
@@ -373,7 +377,40 @@ section.heroHeader {
   object-position: center;
   display: block;
 }
-
+@media (max-width: 768px) {
+  .project-page {
+    margin: 30px 20px;
+  }
+  .project-page img {
+    max-width: 100%;
+  }
+  .project-page h2 {
+    font-size: 20px;
+  }
+  .project-page .project-page-intro p {
+    font-size: 8px;
+  }
+  .project-page .project-page-intro {
+    margin-bottom: 30px;
+  }
+  .project-page .project-box {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .project-page .project-box .project-box-content h3 {
+    font-size: 16px;
+  }
+  .project-page .project-box .project-box-content p.tools span {
+    font-size: 8px;
+  }
+  .project-page .project-box .project-box-content p {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .project-page .project-box .project-box-content .project-page-icon {
+    font-size: 15px;
+  }
+}
 /*PROJECTS-page end*/
 
 /*ABOUT-page start*/
