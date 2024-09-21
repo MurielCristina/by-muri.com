@@ -171,20 +171,11 @@ section.heroHeader {
 }
 .theme-button {
   display: block;
-  margin: 0 auto;
-  background-color: transparent; /* No background */
-  color: #39e085; /* Accent Green as default text color */
-  border: none; /* No border */
-  padding: 10px 0; /* Small padding for clickable area */
-  font-size: 16px;
-  font-weight: bold;
-  text-decoration: none; /* Removes underline */
+  margin: 0;
+  padding: 5px; /* Small padding for clickable area */
+  font-size: 25px;
   cursor: pointer;
   transition: color 0.3s ease, border-bottom 0.3s ease;
-  border-bottom: 2px solid transparent; /* Underline effect on hover */
-}
-.theme-button:hover {
-  color: #ff4da6; /* Changes to Primary Pink on hover */
 }
 .button-three {
   display: block;

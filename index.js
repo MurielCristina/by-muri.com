@@ -19,7 +19,7 @@ window.addEventListener("DOMContentLoaded", () => {
       bigFooter.classList.add("dark-theme");
     }
 
-    themeButton.textContent = "🌑";
+    themeButton.textContent = "🌒";
   } else {
     // Por defecto, aplicar el tema oscuro
     body.classList.remove("light-theme");
@@ -33,7 +33,7 @@ window.addEventListener("DOMContentLoaded", () => {
       bigFooter.classList.add("light-theme");
     }
 
-    themeButton.textContent = "☀️";
+    themeButton.textContent = "🌔";
   }
 });
 
