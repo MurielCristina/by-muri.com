@@ -50,7 +50,7 @@ themeButton.addEventListener("click", () => {
       bigFooter.classList.add("dark-theme");
     }
 
-    themeButton.textContent = "🌑";
+    themeButton.textContent = "🌒";
 
     // Guardar preferencia en localStorage
     localStorage.setItem("theme", "light");
@@ -66,7 +66,7 @@ themeButton.addEventListener("click", () => {
       bigFooter.classList.add("light-theme");
     }
 
-    themeButton.textContent = "☀️";
+    themeButton.textContent = "🌔";
 
     // Guardar preferencia en localStorage
     localStorage.setItem("theme", "dark");
