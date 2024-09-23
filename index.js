@@ -35,6 +35,10 @@ window.addEventListener("DOMContentLoaded", () => {
 
     themeButton.textContent = "🌔";
   }
+  const typeEffectElement = document.getElementById("type-effect");
+  if (typeEffectElement) {
+    typeEffect(typeEffectElement, phrases);
+  }
 });
 
 themeButton.addEventListener("click", () => {
@@ -91,4 +95,50 @@ if (phoneButton) {
   });
 }
 
-// typing effect in About page
+//Efecto de escritura
+const phrases = [
+  "Boxer Lover 🐶",
+  "Plants Lover 🪴",
+  "Yoga Lover 🧘🏽‍♀️",
+  "Foooood Lover 🍕",
+];
+function typeEffect(element, phrases) {
+  let phraseIndex = 0;
+  let letterIndex = 0;
+  let currentPhrase = "";
+  let isDeleting = false;
+  let delay = 200;
+
+  function type() {
+    if (phraseIndex >= phrases.length) {
+      phraseIndex = 0;
+    }
+
+    currentPhrase = phrases[phraseIndex];
+    let displayedText = currentPhrase.substring(0, letterIndex);
+    element.textContent = "and a -" + displayedText;
+
+    if (!isDeleting) {
+      if (letterIndex < currentPhrase.length) {
+        letterIndex++;
+        delay = 200;
+      } else {
+        isDeleting = true;
+        delay = 2000;
+      }
+    } else {
+      if (letterIndex > 0) {
+        letterIndex--;
+        delay = 100;
+      } else {
+        isDeleting = false;
+        phraseIndex++;
+        delay = 500;
+      }
+    }
+
+    setTimeout(type, delay);
+  }
+
+  type();
+}

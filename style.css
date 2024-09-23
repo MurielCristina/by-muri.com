@@ -472,6 +472,22 @@ section.heroHeader {
   font-size: 16px;
   padding: 0 30px;
 }
+#type-effect::after {
+  content: "|";
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 @media (max-width: 768px) {
   .about-page {
     margin: 30px 20px;
