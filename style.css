@@ -369,7 +369,7 @@ section.heroHeader {
   text-align: end;
 }
 .project-page .project-box .project-box-content .project-page-icon:hover {
-  color: var(--accent-green); /* Change to Primary Pink on hover */
+  color: var(--accent-green);
   transform: scale(1.1); /* Slight zoom-in effect */
 }
 .project-page .project-box .project-box-content .project-snap {
@@ -425,6 +425,68 @@ section.heroHeader {
 /*morePROJECTS-page start*/
 .moreProject-page {
   margin: 60px 100px;
+}
+.moreProject-page .workingOn {
+  border: 1px solid var(--background-dark);
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin: 0;
+  padding: 20px;
+}
+.moreProject-page .workingOn h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 50px;
+}
+.moreProject-page .projectsCards {
+  border-radius: 5px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  padding: 5px;
+  margin: 5px;
+}
+.moreProject-page .projectsCards h3 {
+  font-size: 20px;
+  margin: 5px;
+  text-align: center;
+}
+.moreProject-page .projectsCards p.tools {
+  margin: 0 8px 15px 8px;
+  padding: 0;
+  line-height: 9px;
+}
+.moreProject-page .projectsCards p.tools span {
+  font-size: 10px;
+  background-color: var(--accent-green);
+  color: var(--text-black);
+  border-radius: 5px;
+  text-align: center;
+}
+.moreProject-page .projectsCards p {
+  margin: 8px;
+  padding: 0;
+  font-size: 11px;
+  line-height: 11px;
+  opacity: 0.8;
+}
+.moreProject-page .projectsCards .project-page-icon {
+  color: var(--text-black);
+  margin: 0 5px 0 8px;
+  opacity: 0.8;
+  font-size: 15px;
+}
+.moreProject-page .projectsCards .project-page-icon:hover {
+  color: var(--accent-green);
+  transform: scale(1.1);
+}
+.dark-theme .moreProject-page .projectsCards .project-page-icon {
+  color: var(--text-white);
+}
+.moreProject-page .future {
+  padding: 30px;
+}
+.moreProject-page h1 {
+  margin-top: 40px;
 }
 
 /*morePROJECTS-page end*/
