@@ -422,6 +422,13 @@ section.heroHeader {
 }
 /*PROJECTS-page end*/
 
+/*morePROJECTS-page start*/
+.moreProject-page {
+  margin: 60px 100px;
+}
+
+/*morePROJECTS-page end*/
+
 /*ABOUT-page start*/
 .about-page {
   margin: 60px 100px;
