@@ -483,12 +483,24 @@ section.heroHeader {
   color: var(--text-white);
 }
 .moreProject-page .future {
-  padding: 30px;
+  padding: 50px 0 0 50px;
+}
+.moreProject-page .future h3 {
+  font-size: 45px;
 }
 .moreProject-page h1 {
-  margin-top: 40px;
+  margin: 50px 0 30px 0;
+  font-size: 60px;
 }
-
+.moreProject-page .allProjects h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin-top: 30px;
+}
+.moreProject-page .allProjects p {
+  font-size: 12px;
+}
 /*morePROJECTS-page end*/
 
 /*ABOUT-page start*/
