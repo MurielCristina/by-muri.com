@@ -507,6 +507,68 @@ section.heroHeader {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 5px;
 }
+@media (max-width: 768px) {
+  .moreProject-page {
+    margin: 20px 30px;
+  }
+  .moreProject-page .workingOn {
+    padding: 5px 0;
+  }
+  .moreProject-page .workingOn h2 {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .moreProject-page .projectsCards {
+    margin: 0;
+    padding: 2px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  .moreProject-page .projectsCards h3 {
+    font-size: 11px;
+    margin: 2.5px;
+  }
+  .moreProject-page .projectsCards p.tools span {
+    display: none;
+  }
+  .moreProject-page .projectsCards p {
+    margin: 5px;
+    font-size: 7.5px;
+    line-height: 7.5px;
+    text-align: center;
+  }
+  .moreProject-page .future {
+    padding: 0 20px;
+  }
+  .moreProject-page .future h3 {
+    font-size: 23.5px;
+  }
+  .moreProject-page ul {
+    font-size: 10px;
+    margin: 0;
+    padding-left: 10px;
+  }
+  .moreProject-page h1 {
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px 0 0 0;
+    font-size: 30px;
+  }
+  .moreProject-page .allProjects h4 {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .moreProject-page .allProjects p {
+    font-size: 8px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .moreProjects-boxes {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1px;
+  }
+}
 /*morePROJECTS-page end*/
 
 /*ABOUT-page start*/
