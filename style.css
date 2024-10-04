@@ -444,6 +444,7 @@ section.heroHeader {
     rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
   padding: 5px;
   margin: 5px;
+  max-width: 213px;
 }
 .moreProject-page .projectsCards h3 {
   font-size: 20px;
@@ -500,6 +501,11 @@ section.heroHeader {
 }
 .moreProject-page .allProjects p {
   font-size: 12px;
+}
+.moreProjects-boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
 }
 /*morePROJECTS-page end*/
 
