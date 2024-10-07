@@ -54,8 +54,7 @@ reactProjects.forEach((project) => {
             target="_blank"
             rel="noreferrer"
             title="Open-source code at GitHub"
-        ><i class="fa-brands fa-github project-page-icon"></i>
-        </a>
+        ><i class="fa-brands fa-github project-page-icon"></i></a>
         <a 
             href="${project.launchProject}"
             target="_blank"

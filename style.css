@@ -321,8 +321,13 @@ section.heroHeader {
 }
 .project-page .project-boxes {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 10px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 .project-page .project-box {
   background-color: var(--background-light);
@@ -332,6 +337,9 @@ section.heroHeader {
   transition: transform 0.3s ease;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
 }
 .project-page .project-box:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
