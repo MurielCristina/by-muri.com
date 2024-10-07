@@ -1,5 +1,21 @@
 let vanillaProjects = [
   {
+    title: "BS: A True Inspiration",
+    tools: [
+      "HTML/CSS",
+      "Bootstrap",
+      "VS Code",
+      "Hosting",
+      "JavaScript",
+      "Git & GitHub",
+      "Responsive",
+    ],
+    description: `Discover Britney Spears' journey of strength and resilience,
+                  highlighting her influence as an inspiring female role model.`,
+    gitHubLink: "https://github.com/MurielCristina/Inspiring-Female-Role-Model",
+    launchProject: "https://bs-a-true-inspiration-codedbymuri.netlify.app/",
+  },
+  {
     title: "My first Phone",
     tools: [
       "HTML/CSS",

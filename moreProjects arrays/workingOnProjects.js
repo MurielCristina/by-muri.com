@@ -18,21 +18,6 @@ let workingOnProjects = [
                   help you get lasting results.`,
     gitHubLink: "https://github.com/MurielCristina/juans.trainer",
   },
-  {
-    title: "BS: A True Inspiration",
-    tools: [
-      "HTML/CSS",
-      "Bootstrap",
-      "VS Code",
-      "Hosting",
-      "JavaScript",
-      "Git & GitHub",
-      "Responsive",
-    ],
-    description: `Discover Britney Spears' journey of strength and resilience,
-                  highlighting her influence as an inspiring female role model.`,
-    gitHubLink: "https://github.com/MurielCristina/Inspiring-Female-Role-Model",
-  },
 ];
 
 let projectContainer = document.querySelector(".working-on");
