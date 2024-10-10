@@ -1,0 +1,105 @@
+:root {
+  --primary-pink: #ff4da6; /*Buttons, links, hover effects, and key highlights*/
+  --accent-green: #39e085; /* Secondary buttons, icons, or accent borders for contrast with pink elements */
+  --subtle-teal: #8cf1e3; /*Subtle decorative details, lines, dividers, or smaller text elements and links*/
+  /*Dark Theme Palette:*/
+  --text-white: #ffffff; /*text color, stars, and small decorative elements */
+  --background-dark: #0a0a1e; /*Main background color for the entire website*/
+  /*Light Theme Palette:*/
+  --text-black: #000000; /*text color, stars, and small decorative elements */
+  --background-light: #ffffff; /*Main background color for the entire website*/
+}
+
+.dark-theme {
+  color: var(--text-white);
+  background: var(--background-dark);
+}
+.light-theme {
+  color: var(--text-black);
+  background: var(--background-light);
+}
+
+/*BUTTONS starts*/
+.button-one {
+  background-color: #ff4da6; /* Primary Pink */
+  color: #ffffff; /* White text */
+  border: 2px solid #ff4da6; /* Border matches background */
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+}
+.button-one:hover {
+  background-color: #ffffff; /* On hover, the background turns white */
+  color: #ff4da6; /* Text color changes to Primary Pink */
+  border: 2px solid #ff4da6; /* Border remains Primary Pink */
+}
+.button-two {
+  background-color: transparent; /* Transparent background */
+  color: #39e085; /* Accent Green text */
+  border: 2px solid #39e085; /* Accent Green border */
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-decoration: none;
+}
+.button-two:hover {
+  background-color: #39e085; /* Background turns Accent Green on hover */
+  color: #ffffff; /* Text turns white on hover */
+}
+.theme-button {
+  display: block;
+  margin: 0;
+  padding: 5px; /* Small padding for clickable area */
+  font-size: 25px;
+  cursor: pointer;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+.button-three {
+  display: block;
+  margin: 10px 0;
+  text-align: center;
+  background-color: #8cf1e3; /* Main color */
+  color: #0a0a1e; /* Dark Navy for text */
+  border: 2px solid #8cf1e3; /* Border matches the background color */
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+.button-three:hover {
+  background-color: #efeff1; /* White on hover */
+  color: #56a59a; /* Text changes to the main color */
+  border: 2px solid #8cf1e3; /* Keeps border color */
+  box-shadow: 0px 0px 15px 2px #8cf1e3; /* Glow effect */
+}
+@media (max-width: 768px) {
+  .theme-button {
+    margin: 0;
+    padding: 5px;
+    font-size: 8px;
+  }
+  .button-one {
+    padding: 6px 12.5px;
+    font-size: 10px;
+  }
+  .button-two {
+    padding: 6px 12.5px;
+    font-size: 10px;
+  }
+  .button-three {
+    padding: 6px 12.5px;
+    font-size: 15px;
+  }
+}
+/*BUTTONS end*/
