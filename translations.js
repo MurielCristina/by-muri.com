@@ -143,7 +143,7 @@ const translations = {
     navbar: {
       home: "inicio",
       projects: "proyectos",
-      about: "acerca de",
+      about: "perfil",
       contact: "contacto",
       themeToggle: "🌒",
     },
@@ -165,7 +165,7 @@ const translations = {
       title: "¡Pongámonos en contacto!",
     },
     about: {
-      title: "Acerca de",
+      title: "Sobre mi:",
       introduction: "Soy Muri.",
       description1: "👩🏽‍💻 Desarrolladora front-end",
       description2: "👩🏽‍💼 Gerente de proyectos",

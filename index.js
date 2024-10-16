@@ -97,10 +97,10 @@ if (phoneButton) {
 
 //Efecto de escritura
 const phrases = [
-  "Boxer Lover 🐶",
-  "Plants Lover 🪴",
-  "Yoga Lover 🧘🏽‍♀️",
-  "Foooood Lover 🍕",
+  `<span data-translate-key="about.lover1">Boxer Lover 🐶</span>`,
+  `<span data-translate-key="about.lover2">Plants Lover 🪴</span>`,
+  `<span data-translate-key="about.lover3">Yoga Lover 🧘🏽‍♀️</span>`,
+  `<span data-translate-key="about.lover4">Foooood Lover 🍕</span>`,
 ];
 function typeEffect(element, phrases) {
   let phraseIndex = 0;
@@ -142,3 +142,46 @@ function typeEffect(element, phrases) {
 
   type();
 }
+//Cambio de idioma
+// Elementos del DOM para botones de cambio de idioma
+let languageButtons = document.querySelectorAll(".language-button");
+
+// Función para cambiar el idioma
+function setLanguage(language) {
+  localStorage.setItem("selectedLanguage", language);
+  translatePage(language);
+}
+
+// Función para traducir la página
+function translatePage(language) {
+  const elements = document.querySelectorAll("[data-translate-key]");
+  elements.forEach((element) => {
+    const translateKey = element.getAttribute("data-translate-key");
+    const keys = translateKey.split("."); // para estructuras más profundas
+
+    let translation = translations[language];
+    keys.forEach((key) => {
+      if (translation) {
+        translation = translation[key];
+      }
+    });
+
+    if (translation) {
+      element.innerHTML = translation;
+    }
+  });
+}
+
+// Detectar idioma guardado al cargar la página
+window.addEventListener("DOMContentLoaded", () => {
+  const savedLanguage = localStorage.getItem("selectedLanguage") || "en";
+  setLanguage(savedLanguage);
+
+  // Añadir evento de cambio de idioma a los botones
+  languageButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const selectedLang = button.getAttribute("data-language");
+      setLanguage(selectedLang);
+    });
+  });
+});
