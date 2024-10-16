@@ -115,7 +115,7 @@ let vanillaProjects = [
       "API",
       "Responsive",
     ],
-    description: ` This web application provides accurate, real-time time zone
+    description: `This web application provides accurate, real-time time zone
                   information, ensuring you never miss a moment with your loved
                   ones.`,
     gitHubLink: "https://github.com/MurielCristina/World-Clock-Project",

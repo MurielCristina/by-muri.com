@@ -13,7 +13,7 @@ let workingOnProjects = [
       "Git & GitHub",
       "Responsive",
     ],
-    description: `   Achieve your fitness goals with personalized training, guided
+    description: `Achieve your fitness goals with personalized training, guided
                   by expert coaching and proven techniques. Based in Porto, we
                   help you get lasting results.`,
     gitHubLink: "https://github.com/MurielCristina/juans.trainer",

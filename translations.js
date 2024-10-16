@@ -74,6 +74,70 @@ const translations = {
       othersDescription:
         "This section showcases projects built using diverse frameworks and technologies, like Python. I enjoy exploring different tools to expand my development skills, creating versatile and efficient web solutions beyond the familiar stack.",
     },
+    workingOnProjects: {
+      title: "Juans Trainer",
+      description: `Achieve your fitness goals with personalized training, guided
+                  by expert coaching and proven techniques. Based in Porto, we
+                  help you get lasting results.`,
+    },
+    reactProjects: {
+      // Card 2
+      title2: "Dictionary",
+      description2: `Discover language with this dictionary, designed to provide
+                  quick and accurate definitions and images through cutting-edge
+                  technology.`,
+      // Card 1
+      title1: "Weather Forecasts",
+      description1: `Stay updated with real-time weather forecasts using this
+                  React-powered app, designed to provide accurate, up-to-date
+                  weather information.`,
+    },
+    otherProjects: {
+      // Card 1
+      title1: "Weather Forecasts",
+      description1: `Stay informed with real-time weather updates powered by the
+                  fundamentals of Python, delivering accurate forecasts with
+                  simple, efficient code.`,
+    },
+    vanillaProjects: {
+      // Card 9
+      title9: "BS: A True Inspiration",
+      description9: `Discover Britney Spears' journey of strength and resilience,
+                  highlighting her influence as an inspiring female role model.`,
+      // Card 8
+      title8: "My first Phone",
+      description8: `Explore this responsive web app, crafted to enhance mobile
+                  usability and design.`,
+      // Card 7
+      title7: "Portfolio Project",
+      description7: `Showcase your skills and projects with this elegant portfolio,
+                  designed to highlight your work and attract opportunities.`,
+      // Card 6
+      title6: "Dream Travel Destination",
+      description6: `Explore the stunning Amalfi Coast with this interactive web
+                  application.`,
+      // Card 5
+      title5: "Welcome to Panama",
+      description5: `"Welcome to Panama," a vibrant web application designed to
+                  showcase the beauty and culture of Panama.`,
+      // Card 4
+      title4: "AI Bare Pantry Chef",
+      description4: `Utilizing AI, this app helps you create delicious recipes with
+                  the ingredients you have on hand.`,
+      // Card 3
+      title3: "Family World Clock",
+      description3: `This web application provides accurate, real-time time zone
+                  information, ensuring you never miss a moment with your loved
+                  ones.`,
+      // Card 2
+      title2: "Weather Forecast",
+      description2: `Stay informed with real-time weather forecasts using this
+                  sleek vanilla JavaScript app`,
+      // Card 1
+      title1: "Weather Search",
+      description1: `Get real-time weather updates with this simple vanilla
+                  JavaScript application.`,
+    },
   },
   es: {
     navbar: {
