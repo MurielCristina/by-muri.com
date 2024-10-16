@@ -22,14 +22,18 @@ let workingOnProjects = [
 
 let projectContainer = document.querySelector(".working-on");
 
-workingOnProjects.forEach((project) => {
+workingOnProjects.forEach((project, index) => {
   let projectHTML = `
     <div class="projectsCards">
-        <h3>${project.title}</h3>
+        <h3 data-translate-key="workingOnProjects.title${index + 1}">${
+    project.title
+  }</h3>
         <p class="tools">
         ${project.tools.map((tool) => `<span>${tool}</span>`).join(" ")}
         </p>
-        <p>${project.description}</p>
+        <p data-translate-key="workingOnProjects.description${index + 1}">${
+    project.description
+  }</p>
         <a
             href="${project.gitHubLink}"
             target="_blank"

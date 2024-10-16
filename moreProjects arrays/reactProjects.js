@@ -39,16 +39,20 @@ let reactProjects = [
 
 let projectContainerReact = document.querySelector(".react-projects");
 
-reactProjects.forEach((project) => {
+reactProjects.forEach((project, index) => {
   let projectHTML = `
     <div class="projectsCards">
-        <h3>${project.title}</h3>
+        <h3 data-translate-key="reactProjects.title${index + 1}">${
+    project.title
+  }</h3>
         <p class="tools">
             ${project.tools
               .map((tool) => `<span>${tool}</span>`)
               .join(" ")}          
         </p>
-        <p>${project.description}</p>
+        <p data-translate-key="reactProjects.description${index + 1}">${
+    project.description
+  }</p>
         <a
             href="${project.gitHubLink}"
             target="_blank"
