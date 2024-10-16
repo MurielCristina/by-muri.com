@@ -19,6 +19,10 @@ const translations = {
       hostedAt: " and hosted at ",
       opportunities: "Open for oportunities?",
       open: "YES",
+      location: "📍 Europe / Central America",
+      description:
+        "Front-End Developer | Project Manager | Electromechanical Engineer",
+      title: "Let's get in touch!",
     },
     about: {
       title: "About",
@@ -26,13 +30,15 @@ const translations = {
       description1: "👩🏽‍💻 A front-end developer",
       description2: "👩🏽‍💼 A project manager",
       description3: "👷🏽‍♀️ An electromechanical engineer",
+      lover1: "Boxer-Lover 🐶",
+      lover2: "Plants-Lover 🪴",
+      lover3: "Yoga-Lover 🧘🏽‍♀️",
+      lover4: "Foooood-Lover 🍕",
       fullName:
         "Hello! I'm <strong>Muriel Sánchez Laguna</strong>, a front-end developer with a passion for continuous learning and creating seamless user experiences. As someone who believes in the saying,",
       quote: "You are always a student, never a master",
       fullDescription: `I'm constantly striving to improve my skills and explore new technologies. My journey into coding has been driven by a genuine curiosity for how digital products are built and a desire to contribute to impactful web projects. I thrive on turning ideas into reality through clean, efficient code, and I'm excited to continue growing as a front-end developer.<br/><br/>I originally studied electromechanical engineering, where I gained a strong technical foundation, and later completed a master's degree in project management. This combination of engineering and project management has equipped me with a unique skill set that I now bring to my front-end work. My experience in managing complex projects has helped me develop a strategic mindset, ensuring that I not only focus on delivering great user experiences but also on meeting project goals efficiently and effectively.<br/><br/>As a Panamanian professional, I'm eager to leverage my diverse background in remote front-end roles, contributing to innovative digital projects. I’m excited by the challenges that come with building responsive, user-friendly applications, and I look forward to collaborating on dynamic projects where I can apply my technical skills, creativity, and love for learning.`,
       contactButton: "CONTACT ME",
-      cvEnglish: "CV-English",
-      cvSpanish: "CV-Español",
       skills: "Skills",
       tools: "Tools",
       toolsSkills:
@@ -81,6 +87,10 @@ const translations = {
       hostedAt: " y está alojada en ",
       opportunities: "¿Abierta a oportunidades?",
       open: "SÍ",
+      location: "📍 Europa / Centroamérica",
+      description:
+        "Desarrolladora Front-End | Project Manager | Ingeniera Electromecánica",
+      title: "¡Pongámonos en contacto!",
     },
     about: {
       title: "Acerca de",
@@ -88,13 +98,15 @@ const translations = {
       description1: "👩🏽‍💻 Desarrolladora front-end",
       description2: "👩🏽‍💼 Gerente de proyectos",
       description3: "👷🏽‍♀️ Ingeniera electromecánica",
+      lover1: "Amante de los boxers 🐶",
+      lover2: "Amante de las plantitas 🪴",
+      lover3: "Amante del yoga 🧘🏽‍♀️",
+      lover4: "Amante de la comida 🍕",
       fullName:
         "¡Hola! Soy <strong>Muriel Sánchez Laguna</strong>, desarrolladora front-end con pasión por el aprendizaje continuo y la creación de experiencias de usuario fluidas. Como alguien que cree en la frase,",
       quote: "Siempre estudiante, nunca maestro",
       fullDescription: `Siempre busco mejorar mis habilidades y explorar nuevas tecnologías. Mi viaje en el mundo de la programación ha sido impulsado por una curiosidad genuina por cómo se construyen los productos digitales y el deseo de contribuir a proyectos web impactantes. Me encanta transformar ideas en realidad mediante código limpio y eficiente, y estoy emocionada por seguir creciendo como desarrolladora front-end.<br/><br/>Originalmente estudié ingeniería electromecánica, donde obtuve una base técnica sólida, y más tarde completé una maestría en gestión de proyectos. Esta combinación de ingeniería y gestión de proyectos me ha brindado un conjunto de habilidades únicas que ahora aplico en mi trabajo de front-end. Mi experiencia en la gestión de proyectos complejos me ha ayudado a desarrollar una mentalidad estratégica, asegurando que no solo me enfoque en ofrecer grandes experiencias de usuario, sino también en cumplir objetivos de proyecto de manera eficiente y efectiva.<br/><br/>Como profesional panameña, estoy ansiosa por aprovechar mi diversa experiencia en roles remotos de front-end, contribuyendo a proyectos digitales innovadores. Me emocionan los desafíos que conlleva construir aplicaciones responsivas y fáciles de usar, y espero colaborar en proyectos dinámicos donde pueda aplicar mis habilidades técnicas, creatividad y amor por el aprendizaje.`,
-      contactButton: "CONTÁCTAME",
-      cvEnglish: "CV-Inglés",
-      cvSpanish: "CV-Español",
+      contactButton: "CONTACTO",
       skills: "Habilidades",
       tools: "Herramientas",
       toolsSkills:
