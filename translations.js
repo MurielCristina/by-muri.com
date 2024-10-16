@@ -138,6 +138,31 @@ const translations = {
       description1: `Get real-time weather updates with this simple vanilla
                   JavaScript application.`,
     },
+    bestProjects: {
+      // Card 1
+      title1: "Welcome to Panama",
+      description1: `Embark on a virtual journey with "Welcome to Panama," a vibrant web application designed to showcase the beauty and culture of Panama.`,
+      // Card 2
+      title2: "Dictionary",
+      description2: `Discover language with this dictionary, designed to provide
+                quick and accurate definitions and images through cutting-edge
+                technology.`,
+      // Card 3
+      title3: "Weather Forecasts",
+      description3: `Stay updated with real-time weather forecasts using this
+                React-powered app, designed to provide accurate, up-to-date
+                weather information.`,
+      // Card 4
+      title4: "Family World Clock",
+      description4: `This web application provides accurate, real-time time zone
+                information, ensuring you never miss a moment with your loved
+                ones.`,
+      // Card 5
+      title5: "AI Bare Pantry Chef",
+      description5: `Utilizing AI, this app helps you create delicious recipes with
+                the ingredients you have on hand. Say goodbye to food waste and
+                hello to culinary creativity!`,
+    },
   },
   es: {
     navbar: {
@@ -273,6 +298,23 @@ const translations = {
       title1: "Búsqueda del Clima",
       description1: `Obtén actualizaciones del clima en tiempo real con esta simple aplicación 
                 de JavaScript vanilla.`,
+    },
+    bestProjects: {
+      // Card 1
+      title1: "Bienvenido a Panamá",
+      description1: `Embárcate en un viaje virtual con "Bienvenido a Panamá", una vibrante aplicación web diseñada para mostrar la belleza y cultura de Panamá.`,
+      // Card 2
+      title2: "Diccionario",
+      description2: `Descubre el idioma con este diccionario, diseñado para proporcionar definiciones e imágenes rápidas y precisas mediante tecnología de vanguardia.`,
+      // Card 3
+      title3: "Pronósticos del Clima",
+      description3: `Mantente al día con pronósticos del clima en tiempo real usando esta aplicación impulsada por React, diseñada para ofrecer información precisa y actualizada.`,
+      // Card 4
+      title4: "Reloj Mundial Familiar",
+      description4: `Esta aplicación web proporciona información precisa y en tiempo real sobre zonas horarias, asegurando que nunca pierdas un momento con tus seres queridos.`,
+      // Card 5
+      title5: "AI Bare Pantry Chef",
+      description5: `Utilizando IA, esta aplicación te ayuda a crear recetas deliciosas con los ingredientes que tienes a la mano. ¡Di adiós al desperdicio de alimentos y hola a la creatividad culinaria!`,
     },
   },
 };

@@ -98,16 +98,18 @@ let bestProjects = [
 
 let projectContainer = document.querySelector(".project-boxes");
 
-bestProjects.forEach((project) => {
+bestProjects.forEach((project, index) => {
   let projectHTML = `
     <div class="project-box">
             <div class="project-box-content">
-              <h3>${project.title}</h3>
-              <p class="tools">
+              <h3 data-translate-key="bestProjects.title${index + 1}">${
+    project.title
+  }</h3>              <p class="tools">
               ${project.tools.map((tool) => `<span>${tool}</span>`).join("")}
               </p>
-              <p> ${project.description}</p>
-              <a
+              <p data-translate-key="bestProjects.description${index + 1}">${
+    project.description
+  }</p>              <a
                 href="${project.gitHubLink}"
                 target="_blank"
                 rel="noreferrer"
