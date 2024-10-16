@@ -214,5 +214,65 @@ const translations = {
       othersDescription:
         "Esta sección muestra proyectos construidos utilizando diferentes frameworks y tecnologías, como Python. Me gusta explorar diferentes herramientas para expandir mis habilidades de desarrollo, creando soluciones web versátiles y eficientes más allá de la pila habitual.",
     },
+    workingOnProjects: {
+      title: "Juans Trainer",
+      description: `Alcanza tus objetivos de fitness con entrenamiento personalizado, 
+                guiado por entrenadores expertos y técnicas comprobadas. Con sede en Oporto, 
+                te ayudamos a obtener resultados duraderos.`,
+    },
+    reactProjects: {
+      // Card 2
+      title2: "Diccionario",
+      description2: `Descubre el idioma con este diccionario, diseñado para proporcionar
+                definiciones e imágenes rápidas y precisas mediante tecnología de vanguardia.`,
+      // Card 1
+      title1: "Pronósticos del Clima",
+      description1: `Mantente al día con pronósticos del clima en tiempo real usando esta
+                aplicación impulsada por React, diseñada para ofrecer información precisa y actualizada.`,
+    },
+    otherProjects: {
+      // Card 1
+      title1: "Pronósticos del Clima",
+      description1: `Mantente informado con actualizaciones del clima en tiempo real, 
+                impulsadas por los fundamentos de Python, proporcionando pronósticos precisos 
+                con un código simple y eficiente.`,
+    },
+    vanillaProjects: {
+      // Card 9
+      title9: "BS: Una Verdadera Inspiración",
+      description9: `Descubre el viaje de fuerza y resiliencia de Britney Spears,
+                destacando su influencia como un modelo femenino inspirador.`,
+      // Card 8
+      title8: "Mi Primer Teléfono",
+      description8: `Explora esta aplicación web responsive, diseñada para mejorar la
+                usabilidad y el diseño móvil.`,
+      // Card 7
+      title7: "Proyecto de Portafolio",
+      description7: `Muestra tus habilidades y proyectos con este elegante portafolio,
+                diseñado para resaltar tu trabajo y atraer oportunidades.`,
+      // Card 6
+      title6: "Destino de Viaje de Ensueño",
+      description6: `Explora la impresionante Costa Amalfitana con esta aplicación web interactiva.`,
+      // Card 5
+      title5: "Bienvenido a Panamá",
+      description5: `"Bienvenido a Panamá", una vibrante aplicación web diseñada para
+                mostrar la belleza y cultura de Panamá.`,
+      // Card 4
+      title4: "AI Bare Pantry Chef",
+      description4: `Utilizando IA, esta aplicación te ayuda a crear recetas deliciosas con
+                los ingredientes que tienes a la mano.`,
+      // Card 3
+      title3: "Reloj Mundial Familiar",
+      description3: `Esta aplicación web proporciona información precisa y en tiempo real sobre zonas horarias,
+                asegurando que nunca pierdas un momento con tus seres queridos.`,
+      // Card 2
+      title2: "Pronóstico del Tiempo",
+      description2: `Mantente informado con pronósticos del tiempo en tiempo real usando esta
+                elegante aplicación de JavaScript vanilla.`,
+      // Card 1
+      title1: "Búsqueda del Clima",
+      description1: `Obtén actualizaciones del clima en tiempo real con esta simple aplicación 
+                de JavaScript vanilla.`,
+    },
   },
 };
