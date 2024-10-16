@@ -13,6 +13,13 @@ const translations = {
       aboutMe: "About me",
       contactMe: "Contact me",
     },
+    smallFooter: {
+      codedBy: "This page was coded by",
+      openSource: "and it's open-source at ",
+      hostedAt: " and hosted at ",
+      opportunities: "Open for oportunities?",
+      open: "YES",
+    },
     about: {
       title: "About",
       introduction: "I'm Muri.",
@@ -37,9 +44,6 @@ const translations = {
       description:
         "Need Front-End developer to help out? Got a question, proposal or project or want to work together on something? Feel free to reach out.",
       seeProfile: "You can also see my profile in:",
-      openSource:
-        "This page was coded by Muri and it's open-source at GitHub and hosted at Netlify",
-      opportunities: "Open for oportunities? YES",
     },
     projects: {
       title: "Personal Projects",
@@ -71,6 +75,13 @@ const translations = {
       aboutMe: "Acerca de mí",
       contactMe: "Contáctame",
     },
+    smallFooter: {
+      codedBy: "Esta página fue codificada por",
+      openSource: "y es de código abierto en ",
+      hostedAt: " y está alojada en ",
+      opportunities: "¿Abierta a oportunidades?",
+      open: "SÍ",
+    },
     about: {
       title: "Acerca de",
       introduction: "Soy Muri.",
@@ -95,9 +106,6 @@ const translations = {
       description:
         "¿Necesitas una desarrolladora front-end para ayudar? ¿Tienes una pregunta, propuesta o proyecto, o quieres colaborar en algo? No dudes en comunicarte.",
       seeProfile: "También puedes ver mi perfil en:",
-      openSource:
-        "Esta página fue codificada por Muri y es de código abierto en GitHub y está alojada en Netlify",
-      opportunities: "¿Abierta a oportunidades? SÍ",
     },
     projects: {
       title: "Proyectos Personales",
