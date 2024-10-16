@@ -31,6 +31,26 @@
 .top-bar .navBar-logo img {
   width: 60px;
 }
+.language-container {
+  display: inline-flex;
+  gap: 5px;
+  margin-left: 15px;
+}
+.language-button {
+  background-color: var(--background-light);
+  color: var(--text-black);
+  border: 1px solid var(--accent-green);
+  font-size: 13px;
+  border-radius: 15px;
+  padding: 2.5px 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.language-button:hover {
+  background-color: var(--accent-green);
+  color: var(--text-white);
+}
+
 @media (max-width: 768px) {
   .top-bar {
     padding: 5px;
@@ -48,6 +68,13 @@
   }
   .top-bar small {
     display: none;
+  }
+  .language-button {
+    font-size: 7px;
+    padding: 1.5px 4px;
+  }
+  .language-container {
+    margin-left: 5px;
   }
 }
 /*NAVBAR end*/
