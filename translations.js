@@ -56,6 +56,14 @@ const translations = {
       description:
         "This is a collection of my favorite projects—each one marks a step in my journey as a developer. The world of digital development is always changing, and so am I. Every day, I’m learning something new, refining my skills, and enjoying the process of growth along the way.",
       moreProjectsButton: "More projects",
+      actual: "I'm currently working on...",
+      future: "Future Projects",
+      futureProjects1: "Interactive Dictionary in Python",
+      futureProjects2: "QR code component",
+      futureProjects3: "Blog preview card",
+      futureProjects4: "Social links profile",
+      futureProjects5: "Recipe page",
+      all: "All my personal projects",
       vanillaTitle: "Built in Vanilla",
       vanillaDescription:
         "In the culinary world, vanilla often connotes simplicity and unadorned flavor. In web development, 'vanilla' carries a similar meaning, denoting the use of pure, framework-free coding languages such as HTML, CSS, and JavaScript. I enjoy the challenge and freedom that comes with writing in vanilla, crafting projects from the ground up without relying on external libraries. It allows me to maintain full control over every line of code, ensuring performance and precision in every detail.",
@@ -114,19 +122,27 @@ const translations = {
       toolsList: "VS Code, MacOS, Git, GitHub",
     },
     contact: {
-      title: "Contáctame",
+      title: "Contacto",
       description:
         "¿Necesitas una desarrolladora front-end para ayudar? ¿Tienes una pregunta, propuesta o proyecto, o quieres colaborar en algo? No dudes en comunicarte.",
       seeProfile: "También puedes ver mi perfil en:",
     },
     projects: {
-      title: "Proyectos Personales",
+      title: "Proyectos <br /> Personales",
       description:
-        "Esta es una colección de mis proyectos favoritos; cada uno marca un paso en mi viaje como desarrolladora. El mundo del desarrollo digital está en constante cambio, y yo también. Cada día aprendo algo nuevo, perfecciono mis habilidades y disfruto el proceso de crecimiento a lo largo del camino.",
+        "Esta es una colección de mis proyectos favoritos; cada uno marca un paso en mi viaje como desarrolladora. <br /><br /> El mundo del desarrollo digital está en constante cambio, y yo también. Cada día aprendo algo nuevo, perfecciono mis habilidades y disfruto el proceso de crecimiento a lo largo del camino.",
       moreProjectsButton: "Más proyectos",
+      actual: "Trabajando <br /> en...",
+      future: "Projectos Futuros",
+      futureProjects1: "Diccionario interactivo en Python",
+      futureProjects2: "Componente de código QR",
+      futureProjects3: "Tarjeta de vista previa del blog",
+      futureProjects4: "Perfil de enlaces sociales",
+      futureProjects5: "Página de recetas",
+      all: "Todos mis proyectos personales",
       vanillaTitle: "Hechos en Vanilla",
       vanillaDescription:
-        "En el mundo culinario, la vainilla a menudo connota simplicidad y sabor sin adornos. En el desarrollo web, 'vanilla' tiene un significado similar, denotando el uso de lenguajes de codificación puros, sin frameworks, como HTML, CSS y JavaScript. Disfruto el desafío y la libertad que conlleva escribir en vanilla, creando proyectos desde cero sin depender de librerías externas. Esto me permite tener control total sobre cada línea de código, asegurando rendimiento y precisión en cada detalle.",
+        "En el mundo culinario, la vainilla a menudo connota simplicidad y sabor sin adornos. En el desarrollo web, 'vanilla' tiene un significado similar, denotando el uso de lenguajes de codificación puros, sin frameworks, como HTML, CSS y JavaScript. <strong>Disfruto el desafío y la libertad que conlleva escribir en vanilla</strong>, creando proyectos desde cero sin depender de librerías externas. Esto me permite tener control total sobre cada línea de código, asegurando rendimiento y precisión en cada detalle.",
       reactTitle: "Hechos en React.js",
       reactDescription:
         "React.js aporta un enfoque dinámico y basado en componentes para construir interfaces de usuario. Me encanta trabajar con React porque me permite crear aplicaciones rápidas, escalables e interactivas con facilidad.",
