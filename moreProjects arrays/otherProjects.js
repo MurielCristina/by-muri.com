@@ -13,15 +13,16 @@ let otherProjects = [
 let projectContainerOther = document.querySelector(".other-projects");
 
 otherProjects.forEach((project, index) => {
+  let reversedIndex = otherProjects.length - index;
   let projectHTML = `
     <div class="projectsCards">
-        <h3 data-translate-key="otherProjects.title${index + 1}">${
+        <h3 data-translate-key="otherProjects.title${reversedIndex}">${
     project.title
   }</h3>
         <p class="tools">
             ${project.tools.map((tool) => `<span>${tool}</span>`).join(" ")}  
         </p>
-        <p data-translate-key="otherProjects.description${index + 1}">${
+        <p data-translate-key="otherProjects.description${reversedIndex}">${
     project.description
   }</p>
         <a 

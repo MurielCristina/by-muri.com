@@ -40,9 +40,10 @@ let reactProjects = [
 let projectContainerReact = document.querySelector(".react-projects");
 
 reactProjects.forEach((project, index) => {
+  let reversedIndex = reactProjects.length - index;
   let projectHTML = `
     <div class="projectsCards">
-        <h3 data-translate-key="reactProjects.title${index + 1}">${
+        <h3 data-translate-key="reactProjects.title${reversedIndex}">${
     project.title
   }</h3>
         <p class="tools">
@@ -50,7 +51,7 @@ reactProjects.forEach((project, index) => {
               .map((tool) => `<span>${tool}</span>`)
               .join(" ")}          
         </p>
-        <p data-translate-key="reactProjects.description${index + 1}">${
+        <p data-translate-key="reactProjects.description${reversedIndex}">${
     project.description
   }</p>
         <a
