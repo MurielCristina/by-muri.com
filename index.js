@@ -140,7 +140,7 @@ function typeEffect(element, phrases) {
 
     currentPhrase = phrases[phraseIndex];
     let displayedText = currentPhrase.substring(0, letterIndex);
-    element.innerHTML = `and a - <span>${displayedText}</span>`;
+    element.innerHTML = `<span>${displayedText}</span>`;
 
     if (!isDeleting) {
       if (letterIndex < currentPhrase.length) {
